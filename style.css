@@ -1,0 +1,799 @@
+body, html, *{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #e6e5e5;
+    overflow: hidden;
+    padding-top: 70px;
+}
+/*start div home-left-big */
+.home-left-big {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: -moz-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(41,7,17,1)), color-stop(0%, rgba(41,7,17,1)), color-stop(100%, rgba(103,10,36,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', endColorstr='#290711',GradientType=1 ); /* ie6-9 */
+    height: 661.5px;
+    padding: 0;
+}
+
+.home-left h1{
+    padding-top: 40px;
+    color:burlywood;
+    font-family: 'Arizonia', cursive;
+    font-size: 90px;
+    letter-spacing: 11px;
+}
+.home-left span img{
+    margin-top: 50px;
+}
+.home-left .list-group {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+.home-left .list-group a {
+    background-color:transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: burlywood;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-left: 0;
+    border-right: 0;
+    border-color: #222;
+    border: 4px 0 4px 0 #222;
+}
+.home-left .list-group a:hover {
+    background-color: #cc944c;
+    color: #000;
+}
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-radius: 0;
+}
+.home-left .social {
+    margin-top: 12%;
+}
+.home-left .social a {
+    
+}
+.home-left .social a i{
+    padding: 3% 4%;
+    color: burlywood;
+    font-size: 20px;
+}
+.home-left .social a i:hover {
+    color: #cc944c;
+}
+
+/*end div home-left-big */
+
+/*start div home-right-big */
+.home-right-big {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 661.5px;
+    background-image: url("tt.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*main navbar*/
+.navbar {min-height: 70px;}
+
+/*navbar link*/
+.navbar-inverse {
+    background: -moz-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(41,7,17,1)), color-stop(0%, rgba(41,7,17,1)), color-stop(100%, rgba(103,10,36,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', endColorstr='#290711',GradientType=1 ); /* ie6-9 */
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #d0d0d0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+/*brand name*/
+.navbar-inverse .navbar-brand {font-size: 30px;line-height: 40px; color: burlywood} /*clean code*/
+.navbar-inverse .navbar-brand span {
+    color: #b90a3b;
+}
+
+/*navbar toggle*/
+.navbar-toggle {margin-top: 18px;}
+
+
+
+/*start div home-right */
+.home-right-big .home-right-con {
+    background: rgba(7,7,7,0.8);
+    height: 661.5px;
+}
+.home-right {
+    width: 100%;
+    margin: auto;
+    padding: 11%;
+    height: 661.5px;
+    
+}
+.home-right h2 {
+    font-size: 60px;
+    padding-bottom: 3%;
+    color: antiquewhite;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.home-right .para {
+    font-family: Arial;
+    color: antiquewhite;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.home-right span {
+    color: antiquewhite;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.home-right  i{
+    color: #de8a8f;
+    display: inline-block;
+}
+.home-right .center a {
+    text-decoration: none;
+}
+.home-right input {
+    display: block;
+    margin-top: 65px;
+    outline: 0;
+    color: #17040a;
+    background: #cc9348;
+    border: 0;
+    margin-left: 2%;
+    width: 400px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.home-right input[type="button"] {
+    font-family: 'FontAwesome', Tahoma; /*لازم اعرف نوع الايقون عشان تشتغل وتاهوما هنا عشان كلمة سند لاينفع لها نوع الخط نفس الايقونة لذا لاااااااااااازم نضع نوع خط خاص بالكلام*/
+}
+/*end div home-right */
+
+/*start div our-theme*/
+.our-theme {
+    width: 90%;
+    margin: 110px auto 110px auto;
+}
+.our-theme p.t1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #000;
+}
+.our-theme p.t2 {
+    opacity: 0.6;
+    padding-top: 2%;
+    font-size: 25px;
+}
+/*end div our-theme*/
+
+/*start testimonials div*/
+.testimonials {
+    margin-top: 2%;
+    background-image: url(so.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.testimonials .testimonials-con {
+    background: rgba(7,7,7,0.8);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.testimonials .h1 {
+    margin-bottom: 80px;
+    color: antiquewhite;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.testimonials .h1 span {
+    text-shadow: 1px 5px #901134;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 30px;
+    font-family: Arial;
+    letter-spacing: 3px;
+    color: antiquewhite;
+}
+.testimonials .lead {
+    line-height: 2em;
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+.testimonials span.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: crimson;
+}
+.testimonials .carousel-inner {
+    min-height: 160px; /*عشان مش هنحط صورة فلو معملناش ده هتحصل مشاكل*/
+    width: 97%;
+    margin: auto;
+}
+.testimonials .carousel-indicators {
+    position: static; /*default value of position*/
+    width: 100%;
+    margin-left: auto; /*لغيت سالب 30 اللي هو عاملها*/
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.7;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.testimonials .carousel-indicators li.active {
+    width: 80px;
+    height: 80px;
+    background: none;
+    opacity: 1;
+    border: 3px solid crimson;
+}
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+}
+/*end testimonials div*/
+
+/*start section stats*/
+.statistics {
+    width: 95%;
+    margin: 4% auto;
+}
+.statistics .data {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.statistics .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.statistics .h1 {
+    margin-bottom: 60px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #000;
+}
+.statistics .stats {
+    width: 98%;
+    margin-bottom: 30px;
+    color: #575d59;
+}
+.statistics .stats i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:dimgrey;
+}
+.statistics .stats i.child {
+    margin-bottom: 6px;
+}
+.statistics .stats p {
+    font-size: 30px;
+    color: #640a23;
+}
+.statistics .stats:hover {
+    color: #333;
+}
+.statistics p {
+    
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.statistics span {
+    font-size: 18px;
+}
+/*end section stats*/
+
+/*start section features*/
+.features {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.features .h1 {
+    margin-bottom: 50px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #000;
+}
+.features .feat {
+    margin-bottom: 50px;
+}
+.features .feat h4 {
+    font-family: Arial;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3%;
+    color: #640a23;
+}
+
+.features img {
+    max-width: 100%;
+}
+.features .feat p {
+    line-height: 2em; /*ضعف حجم الخط الموجود حاليا*/
+}
+
+/*end section features*/
+
+/*start section price table*/
+.price-table {
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.price-table .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.price-table .h1 {
+    width: 70%;
+    margin: auto;
+    color: #000;
+    margin-bottom: 30px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.price-table p {
+    width: 70%;
+    margin: auto;
+    color: #444;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.price-table p span {
+    color: brown;
+}
+.price-table .price-box {
+    width: 95%;
+    margin: auto;
+    background: #fff;
+    padding: 10px 0 20px 0;
+    border: 1px solid #DDD;
+    margin-bottom: 60px;
+}
+.price-table .price-box h2 {
+    margin: 5px 0 15px;
+}
+
+
+.price-table .price-box:hover p {
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1)rotate(360deg);
+    -o-transform: scale(1.1,1.1)rotate(360deg);
+    transform: scale(1.1,1.1)rotate(360deg);
+    border: 2px solid #dfdfdf;
+}
+.price-table .price-box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #e6e5e5;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #fff;
+    -webkit-transition-duration: 0.7s;
+    -mox-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.price-table .price-box ul{
+    line-height: 250%;
+    font-size: 18px;
+    
+}
+.price-table .price-box a {
+    border-radius: 3px;
+    padding: 2%;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.price-table button {
+    outline: 0;
+    background-color:brown;
+    border-radius: 5px;
+    color: antiquewhite;
+    padding: 5px;
+    border: 0;
+}
+.price-table .row span {
+    margin-left: 1%;
+    font-weight: bold;
+    color: #000;
+    background-color: goldenrod;
+    padding: 2px;
+}
+/*end section price table*/
+
+/*start div comments*/
+.stars {
+    padding-top: 70px;
+    background-color:#171616;
+}
+
+.stars h2 {
+    color: #000;
+    font-family: 'Sorts Mill', serif;
+    color: antiquewhite;
+    margin-top: 0;
+}
+.comments {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10%;
+    
+}
+.comments .pic {
+    width: 80%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 1% auto;
+}
+.comments .pic .stars-i {
+    margin-bottom: 2%;
+    width: auto;
+    font-size: 20px;
+    display: block;
+}
+.fa-star:before{
+    color: #f7d325;
+}
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+    color: #de8c1e;
+}
+.comments .pic::before { /*الصورة*/
+    content: "";
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: url("man.png");
+    border: 3px solid #CCC;
+    position: relative;
+    top: -10px;
+    left: 1%;
+}
+.comments p {
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Tahoma;
+    line-height: 1.7;
+    border: 1px solid #CCC;
+    position: relative;
+}
+.pic .spann {
+    font-weight: bold;
+    border: 1px solid #eeeeee;
+    padding: 3px;
+    border-radius: 5px;
+    background: #250003;
+    color: aliceblue;
+}
+/*end div comments*/
+
+/*start section contact us*/
+.contact-us {
+    background: url("sakura.jpg");
+    background-attachment: fixed;
+}
+.contact-us .contact-us-con {
+    background: rgba(3,3,3,0.7);
+}
+.contact-us .fields {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 170px;
+    
+
+}
+.contact-us .row {
+    margin-top: -13%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 100px;
+    
+}
+.contact-us i {
+    color: #fff;
+}
+.contact-us h2 {
+    color: #fff;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.contact-us P {
+    margin-bottom: 40px;
+    color: #fff;
+}
+.contact-us form span i {
+    margin-bottom: 8%;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 1%;
+}
+.contact-us textarea {
+    height: 108px;
+    resize: none;
+}
+
+/*end section contact us*/
+
+/*start section ultimate footer*/
+.footer {
+    background: #111;
+    color: #AAA;
+    padding-top: 10px;
+}
+.footer .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer a {
+    color: #AAA;
+}
+.footer a:hover {
+    color: #FFF;
+}
+.footer h3 {
+    color: burlywood;
+    letter-spacing: 1px;
+    margin: 30px 0 20px; /*عملنا الحركة ده عشان الريسبونسف*/
+}
+.footer .three-columns {
+    overflow: hidden;
+}
+.footer .three-columns li {
+    width: 33.3333%; /*مستحدمناش الجريد سيستم هنا عشان  مش محتاجينه عشان هنعمل في كل الشاشات 3 ييجو جنب بعض*/
+    float: left;
+    padding: 20px 0;
+}
+.footer .media-body h4{
+    cursor: pointer;
+    
+}
+
+.footer .img-thumbnail {
+    background: rgba(0,0,0,0.4);
+    margin-bottom: 5px; /*عشان الصور لما الشاشة تصغر تبقى ريسبونسف*/
+}
+.footer .pointer img {
+    cursor: pointer;
+}
+.footer .copyright {
+    background: #000;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.footer .copyright span {
+    color: burlywood;
+}
+.fa-star {
+    color: yellow;
+}
+/*end section ultimate footer*/
+/*end div home-right-big */
+
+/*start scroll to top*/
+#scroll-top {
+    padding: 1%;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+    background: #000;
+    border: 1px solid #fff;
+}
+#scroll-top {
+    color:#b3123f;
+}
+#scroll-top:hover {
+    color: crimson;
+}
+/*end scroll to top*/
+
+/*start section loading*/
+.cssload-container {
+    background: #222;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.cssload-circle-1 {
+	height: 117px;
+	width: 117px;
+	background: rgb(97,46,141);
+    margin: 350px auto;
+    position: relative;
+}
+
+.cssload-circle-2 {
+	height: 97px;
+	width: 97px;
+	background: rgb(194,34,134);
+}
+
+.cssload-circle-3 {
+	height: 78px;
+	width: 78px;
+	background: rgb(234,34,94);
+}
+
+.cssload-circle-4 {
+	height: 58px;
+	width: 58px;
+	background: rgb(237,91,53);
+}
+
+.cssload-circle-5 {
+	height: 39px;
+	width: 39px;
+	background: rgb(245,181,46);
+}
+
+.cssload-circle-6 {
+	height: 19px;
+	width: 19px;
+	background: rgb(129,197,64);
+}
+
+.cssload-circle-7 {
+	height: 10px;
+	width: 10px;
+	background: rgb(0,163,150);
+}
+
+.cssload-circle-8 {
+	height: 5px;
+	width: 5px;
+	background: rgb(22,116,188);
+}
+
+.cssload-circle-1,
+.cssload-circle-2,
+.cssload-circle-3,
+.cssload-circle-4,
+.cssload-circle-5,
+.cssload-circle-6,
+.cssload-circle-7,
+.cssload-circle-8 {
+	border-bottom: none;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		-o-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		-ms-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	animation-name: cssload-spin;
+		-o-animation-name: cssload-spin;
+		-ms-animation-name: cssload-spin;
+		-webkit-animation-name: cssload-spin;
+		-moz-animation-name: cssload-spin;
+	animation-duration: 4600ms;
+		-o-animation-duration: 4600ms;
+		-ms-animation-duration: 4600ms;
+		-webkit-animation-duration: 4600ms;
+		-moz-animation-duration: 4600ms;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+		-o-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+}
+
+
+
+@keyframes cssload-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-spin {
+	from {
+		-o-transform: rotate(0deg);
+	}
+	to {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-spin {
+	from {
+		-ms-transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+/*end section loading*/

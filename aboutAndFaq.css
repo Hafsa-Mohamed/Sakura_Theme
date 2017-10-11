@@ -1,0 +1,119 @@
+body {
+    overflow: auto;
+}
+/*start about page*/
+/*start main navbar*/
+.navbar-inverse {
+    background: -moz-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(41,7,17,1)), color-stop(0%, rgba(41,7,17,1)), color-stop(100%, rgba(103,10,36,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(41,7,17,1) 0%, rgba(41,7,17,1) 0%, rgba(103,10,36,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', endColorstr='#290711',GradientType=1 ); /* ie6-9 */
+}
+.navbar-inverse .navbar-brand {
+    color: burlywood;
+}
+.navbar-inverse .navbar-brand span {
+    color: #b90a3b;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #1b1818;
+}
+/*end main navbar*/
+
+/*start breadcrumb*/
+.breadcrumb-holder {
+    background: #F5F5F5;
+}
+.breadcrumb {
+    padding: 10px 0;
+    margin: 0;
+}
+/*end breadcrumb*/
+
+
+/*start about us*/
+.about-us {
+    padding: 70px 0;
+}
+.about-us h1 {
+    letter-spacing: -3px;
+    padding-bottom: 50px;
+    color: #2b0712;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 45px;
+}
+.about-us hr {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.about-us p {
+    font-weight: bold;
+}
+/*end about us*/
+
+/*start about features*/
+.about-features {
+    padding: 0 0 70px;
+}
+.about-features h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+    color: #640a23;
+}
+.about-features p {
+    margin-bottom: 20px;
+}
+/*end about features*/
+
+/*start about ceo */
+.about-ceo {
+    background: #EEE;
+    padding-top: 40px;
+}
+.about-ceo h2 {
+    color: #2b0712;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.about-ceo .lead {
+    line-height: 1.8;
+}
+.about-ceo .btn-primary {
+    background: #333;
+    border: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+/*end about ceo */
+/*end about page*/
+
+
+
+
+
+/*start faq page*/
+.faq {
+    padding: 40px 0;
+}
+.faq h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -3px;
+    color: #2b0712;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.faq p {
+    font-weight: bold;
+}
+.faq h1 ~ hr {
+    width: 70%;
+    margin: 2% auto;
+}
+.faq-questions .panel-heading {
+    padding: 20px 15px;
+}
+
+
+/*end faq page*/
