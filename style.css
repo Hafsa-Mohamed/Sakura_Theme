@@ -126,7 +126,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', end
 
 /*start div home-right */
 .home-right-big .home-right-con {
-    background: rgba(7,7,7,0.8);
+    background: rgba(7,7,7,0.5);
     height: 661.5px;
 }
 .home-right {
@@ -139,17 +139,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', end
 .home-right h2 {
     font-size: 60px;
     padding-bottom: 3%;
-    color: antiquewhite;
+    color: #FFF;
     font-family: 'Sorts Mill Goudy', serif;
 }
 .home-right .para {
     font-family: Arial;
-    color: antiquewhite;
+    color: #FFF;
     font-size: 40px;
     padding-bottom: 40px;
 }
 .home-right span {
-    color: antiquewhite;
+    color: #FFF;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
@@ -529,7 +529,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', end
     background-attachment: fixed;
 }
 .contact-us .contact-us-con {
-    background: rgba(3,3,3,0.7);
+    background: rgba(3,3,3,0.4);
 }
 .contact-us .fields {
     margin: auto;
@@ -628,6 +628,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', end
 
 /*start scroll to top*/
 #scroll-top {
+    width: 70px;
+    height: 60px;
+    width: 50px;
+    height: 40px;
     padding: 1%;
     border-radius: 50%;
     text-align: center;
@@ -660,6 +664,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#670a24', end
 }
 
 .cssload-circle-1 {
+    top: -75px;
+    left: -10px;
 	height: 117px;
 	width: 117px;
 	background: rgb(97,46,141);

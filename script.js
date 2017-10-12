@@ -66,7 +66,7 @@ $(function () {
 $(window).on("load", function () {
     'use strict';
     
-    $(".cssload-container .cssload-circle-1").delay(2000).fadeOut(2000, function () { //put the parent on callback function to make it creative
+    $(".cssload-container .cssload-circle-1").fadeOut(2000, function () { //put the parent on callback function to make it creative
         $("body").css("overflow", "auto"); //show the scroll
         
         $(this).parent().fadeOut(2400, function () {
